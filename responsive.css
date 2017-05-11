@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+.container {
+  background-image: width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.portada {
+  position: absolute;
+  font-size: 2em;
+  font-family: fantasy;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .portada {
+    color: rgb(15, 194, 168);
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .portada {
+    color: rgb(128, 222, 64);
+    font-size: 1em;
+  }
+}
